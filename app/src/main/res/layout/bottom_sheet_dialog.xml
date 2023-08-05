@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <!--image view for displaying course image-->
+        <ImageView
+            android:id="@+id/prizeLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/chempionship" />
+
+        <!--text view for displaying course name-->
+        <TextView
+            android:id="@+id/quizName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/prizeLogo"
+            android:layout_toRightOf="@id/prizeLogo"
+            android:text="You have completed the quiz"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--text view for displaying course tracks-->
+        <TextView
+            android:id="@+id/correctAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quizName"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/prizeLogo"
+            android:layout_toRightOf="@id/prizeLogo"
+            android:text="Correct Answers: 10"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <!--text view for displaying course duration-->
+        <TextView
+            android:id="@+id/wrongAswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/correctAnswers"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/prizeLogo"
+            android:layout_toRightOf="@id/prizeLogo"
+            android:text="Wrong answers: 0"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/unanswered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wrongAswers"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/prizeLogo"
+            android:layout_toRightOf="@id/prizeLogo"
+            android:text="Unanswered Questions: 0"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <!--button for dismissing our dialog-->
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="120dp"
+            android:layout_below="@id/unanswered"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="Exit"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

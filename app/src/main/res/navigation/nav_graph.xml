@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.otamurod.sportsquiz.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_factFragment"
+            app:destination="@id/factFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="uz.otamurod.sportsquiz.ui.sports.SportsFragment"
+        android:label="fragment_sports"
+        tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/questionsFragment"
+        android:name="uz.otamurod.sportsquiz.ui.questions.QuestionsFragment"
+        android:label="fragment_questions"
+        tools:layout="@layout/fragment_questions" />
+    <fragment
+        android:id="@+id/factFragment"
+        android:name="uz.otamurod.sportsquiz.ui.fact.FactFragment"
+        android:label="fragment_fact"
+        tools:layout="@layout/fragment_fact" >
+        <action
+            android:id="@+id/action_factFragment_to_sportsFragment"
+            app:destination="@id/sportsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="uz.otamurod.sportsquiz.ui.quiz.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_questionsFragment"
+            app:destination="@id/questionsFragment" />
+    </fragment>
+</navigation>

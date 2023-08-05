@@ -1,0 +1,85 @@
+INSERT INTO Questions (id, sportID, question, option1, option2, option3, option4, answer)
+VALUES
+    -- Football Questions
+    (0, 0, 'Which country won the first FIFA World Cup in 1930?', 'Uruguay', 'Brazil', 'Germany', 'Italy', 'Uruguay'),
+    (1, 0, 'Which club has won the most UEFA Champions League titles?', 'Real Madrid', 'FC Barcelona', 'AC Milan', 'Bayern Munich', 'Real Madrid'),
+    (2, 0, 'Which player has scored the most goals in FIFA World Cup history?', 'Marta', 'Cristiano Ronaldo', 'Lionel Messi', 'Miroslav Klose', 'Miroslav Klose'),
+    (3, 0, 'Which country hosted the 2014 FIFA World Cup?', 'Brazil', 'Germany', 'Russia', 'South Africa', 'Brazil'),
+    (4, 0, 'In which city is the UEFA Champions League final typically held?', 'London', 'Paris', 'Madrid', 'Milan', 'Madrid'),
+    (5, 0, 'How many times has the German national team won the FIFA World Cup?', '2', '3', '4', '1', '4'),
+    (6, 0, 'Which African country has qualified for the most FIFA World Cups?', 'Nigeria', 'Cameroon', 'Ghana', 'Egypt', 'Nigeria'),
+    (7, 0, 'Which player has won the most Ballon d''Or awards?', 'Lionel Messi', 'Cristiano Ronaldo', 'Michel Platini', 'Johan Cruyff', 'Lionel Messi'),
+    (8, 0, 'Which country has won the most Copa America titles?', 'Brazil', 'Argentina', 'Uruguay', 'Chile', 'Uruguay'),
+    (9, 0, 'Which club has won the most English Premier League titles?', 'Manchester United', 'Liverpool', 'Chelsea', 'Arsenal', 'Manchester United'),
+
+    -- Basketball Questions
+    (10, 1, 'Which player is known as "The Black Mamba" and played for the Los Angeles Lakers?', 'LeBron James', 'Shaquille O''Neal', 'Kobe Bryant', 'Michael Jordan', 'Kobe Bryant'),
+    (11, 1, 'Which country has won the most Olympic gold medals in basketball?', 'USA', 'Spain', 'France', 'Argentina', 'USA'),
+    (12, 1, 'Who holds the record for the most points scored in an NBA game?', 'LeBron James', 'Kobe Bryant', 'Wilt Chamberlain', 'Michael Jordan', 'Wilt Chamberlain'),
+    (13, 1, 'Which NBA team won the most championships in the 1990s?', 'Chicago Bulls', 'Los Angeles Lakers', 'Houston Rockets', 'Boston Celtics', 'Chicago Bulls'),
+    (14, 1, 'Which player has the most career triple-doubles in NBA history?', 'LeBron James', 'Magic Johnson', 'Russell Westbrook', 'Larry Bird', 'Russell Westbrook'),
+    (15, 1, 'Which country won the FIBA Basketball World Cup in 2019?', 'USA', 'Spain', 'Argentina', 'France', 'Spain'),
+    (16, 1, 'Which player has won the most NBA MVP awards?', 'LeBron James', 'Kobe Bryant', 'Michael Jordan', 'Kareem Abdul-Jabbar', 'Kareem Abdul-Jabbar'),
+    (17, 1, 'Which college basketball team has won the most NCAA championships?', 'Duke', 'Kentucky', 'North Carolina', 'UCLA', 'UCLA'),
+    (18, 1, 'Who is the NBA''s all-time leading scorer?', 'Kobe Bryant', 'LeBron James', 'Michael Jordan', 'Kareem Abdul-Jabbar', 'Kareem Abdul-Jabbar'),
+    (19, 1, 'Which country won the first Olympic basketball tournament in 1936?', 'USA', 'Canada', 'Italy', 'France', 'USA'),
+
+    -- Rugby Questions
+    (20, 2, 'In which country did rugby originate?', 'England', 'France', 'New Zealand', 'Australia', 'England'),
+    (21, 2, 'Which team has won the most Rugby World Cup titles?', 'New Zealand', 'South Africa', 'Australia', 'England', 'New Zealand'),
+    (22, 2, 'What is the highest governing body of rugby called?', 'IRB (International Rugby Board)', 'RWC (Rugby World Cup)', 'RFA (Rugby Football Association)', 'RFC (Rugby Football Council)', 'IRB (International Rugby Board)'),
+    (23, 2, 'Which country has won the most Six Nations Championship titles?', 'England', 'Ireland', 'France', 'Wales', 'England'),
+    (24, 2, 'Which club has won the most Gallagher Premiership titles?', 'Exeter Chiefs', 'Saracens', 'Leicester Tigers', 'Bath Rugby', 'Leicester Tigers'),
+    (25, 2, 'How many players are there in a rugby sevens team?', '11', '15', '7', '9', '7'),
+    (26, 2, 'Which player has scored the most points in international rugby?', 'Jonny Wilkinson', 'Dan Carter', 'Ronan O''Gara', 'Stephen Jones', 'Dan Carter'),
+    (27, 2, 'What is the name of the annual series of test matches between Australia and England?', 'Bledisloe Cup', 'Rugby Championship', 'Six Nations Championship', 'The Ashes', 'The Ashes'),
+    (28, 2, 'Which country won the first Rugby World Cup in 1987?', 'Australia', 'New Zealand', 'South Africa', 'England', 'New Zealand'),
+    (29, 2, 'Who is known as the "father of rugby"?', 'William Webb Ellis', 'Jonah Lomu', 'Richie McCaw', 'Martin Johnson', 'William Webb Ellis'),
+
+    -- Baseball Questions
+    (30, 3, 'Which MLB team has won the most World Series titles?', 'New York Yankees', 'Boston Red Sox', 'Los Angeles Dodgers', 'San Francisco Giants', 'New York Yankees'),
+    (31, 3, 'Who holds the record for the most career home runs in MLB?', 'Babe Ruth', 'Barry Bonds', 'Hank Aaron', 'Willie Mays', 'Barry Bonds'),
+    (32, 3, 'In which city is the National Baseball Hall of Fame located?', 'New York', 'Chicago', 'Boston', 'Cooperstown', 'Cooperstown'),
+    (33, 3, 'Which MLB team has won the most consecutive World Series titles?', 'New York Yankees', 'Chicago Cubs', 'St. Louis Cardinals', 'Oakland Athletics', 'New York Yankees'),
+    (34, 3, 'Who is the all-time hits leader in MLB?', 'Pete Rose', 'Ty Cobb', 'Hank Aaron', 'Stan Musial', 'Pete Rose'),
+    (35, 3, 'Which country has won the most World Baseball Classic titles?', 'Japan', 'USA', 'Dominican Republic', 'South Korea', 'Japan'),
+    (36, 3, 'What is the distance between bases on a standard baseball field?', '80 feet', '90 feet', '100 feet', '110 feet', '90 feet'),
+    (37, 3, 'Who is known as "The Sultan of Swat" in baseball history?', 'Babe Ruth', 'Mickey Mantle', 'Lou Gehrig', 'Ted Williams', 'Babe Ruth'),
+    (38, 3, 'Which MLB team has the highest all-time winning percentage?', 'New York Yankees', 'San Francisco Giants', 'Los Angeles Dodgers', 'Chicago Cubs', 'New York Yankees'),
+    (39, 3, 'Which player has the most career Cy Young Awards in MLB?', 'Roger Clemens', 'Randy Johnson', 'Greg Maddux', 'Clayton Kershaw', 'Roger Clemens'),
+
+    -- Handball Questions
+    (40, 4, 'In which country did team handball originate?', 'Germany', 'Sweden', 'Denmark', 'France', 'Germany'),
+    (41, 4, 'How many players are there in a handball team on the field, including the goalkeeper?', '6', '7', '8', '9', '7'),
+    (42, 4, 'Which country has won the most IHF World Men''s Handball Championships?', 'Germany', 'Denmark', 'France', 'Spain', 'France'),
+    (43, 4, 'Which club has won the most EHF Champions League titles?', 'FC Barcelona Handbol', 'THW Kiel', 'Veszprém KC', 'RK Vardar', 'THW Kiel'),
+    (44, 4, 'How long is the half-time break in a standard handball match?', '5 minutes', '10 minutes', '15 minutes', '20 minutes', '15 minutes'),
+    (45, 4, 'Which player has won the most IHF World Player of the Year awards?', 'Nikola Karabatic', 'Mikkel Hansen', 'Thierry Omeyer', 'Sander Sagosen', 'Mikkel Hansen'),
+    (46, 4, 'What is the name of the top professional handball league in Spain?', 'Bundesliga', 'Liga ASOBAL', 'Handball-Bundesliga', 'Lidl Starligue', 'Liga ASOBAL'),
+    (47, 4, 'Which country hosted the 2021 IHF World Men''s Handball Championship?', 'Qatar', 'Egypt', 'France', 'Spain', 'Egypt'),
+    (48, 4, 'Which player holds the record for the most goals scored in a single IHF World Men''s Handball Championship?', 'Mikkel Hansen', 'Sander Sagosen', 'Nikola Karabatic', 'Luc Abalo', 'Sander Sagosen'),
+    (49, 4, 'What is the circumference of a standard handball?', '50-52 cm', '54-56 cm', '58-60 cm', '62-64 cm', '58-60 cm'),
+
+    -- Volleyball Questions
+    (50, 5, 'In which country did volleyball originate?', 'USA', 'Brazil', 'Italy', 'Russia', 'USA'),
+    (51, 5, 'How many players are there in a standard volleyball team on the court?', '5', '6', '7', '8', '6'),
+    (52, 5, 'Which country has won the most FIVB Volleyball World Championships (men''s and women''s combined)?', 'Brazil', 'USA', 'Russia', 'Italy', 'Russia'),
+    (53, 5, 'Which club has won the most CEV Champions League titles (formerly European Champions Cup)?', 'Zenit Kazan', 'VfB Friedrichshafen', 'CSKA Moscow', 'PGE Skra Belchatow', 'Zenit Kazan'),
+    (54, 5, 'Which player has won the most Olympic gold medals in volleyball?', 'Giba (Gilberto Amauri de Godoy Filho)', 'Karch Kiraly', 'Giovane Gávio', 'Ricardo Lucarelli', 'Giba (Gilberto Amauri de Godoy Filho)'),
+    (55, 5, 'What is the height of the official net in men''s volleyball?', '2.30 meters', '2.40 meters', '2.50 meters', '2.60 meters', '2.43 meters'),
+    (56, 5, 'Which country hosted the first FIVB Volleyball Men''s World Championship?', 'France', 'Brazil', 'Italy', 'Czechoslovakia', 'Czechoslovakia'),
+    (57, 5, 'Which player has won the most FIVB Best Male Player awards?', 'Giba (Gilberto Amauri de Godoy Filho)', 'György Grozer', 'Ricardo Lucarelli', 'Wallace de Souza', 'György Grozer'),
+    (58, 5, 'Which player was nicknamed "The Phenomenon" in volleyball?', 'Giba (Gilberto Amauri de Godoy Filho)', 'Karch Kiraly', 'Bruno Rezende', 'Ivan Zaytsev', 'Giba (Gilberto Amauri de Godoy Filho)'),
+    (59, 5, 'Which country won the gold medal in women''s volleyball at the 2016 Summer Olympics?', 'USA', 'Brazil', 'China', 'Serbia', 'China'),
+
+    -- Hockey Questions
+    (60, 6, 'In which country did field hockey originate?', 'England', 'Netherlands', 'India', 'Germany', 'England'),
+    (61, 6, 'How many players are there in a standard field hockey team on the field, including the goalkeeper?', '9', '10', '11', '12', '11'),
+    (62, 6, 'Which country has won the most FIH Hockey World Cups (men''s and women''s combined)?', 'Netherlands', 'Germany', 'Australia', 'Argentina', 'Netherlands'),
+    (63, 6, 'Which club has won the most Euro Hockey League titles?', 'HC Bloemendaal', 'Rotterdam HC', 'Atlètic Terrassa', 'KHC Dragons', 'HC Bloemendaal'),
+    (64, 6, 'How long is a standard period in field hockey?', '20 minutes', '25 minutes', '30 minutes', '35 minutes', '35 minutes'),
+    (65, 6, 'Which player has won the most FIH Player of the Year awards?', 'Jamie Dwyer', 'Teun de Nooijer', 'Luciana Aymar', 'Sachin Tendulkar', 'Teun de Nooijer'),
+    (66, 6, 'What is the name of the top professional field hockey league in India?', 'Hockey India League', 'Hoofdklasse', 'Euro Hockey League', 'Hockey Pro League', 'Hockey India League'),
+    (67, 6, 'Which country hosted the 2021 Men''s FIH Hockey World Cup?', 'India', 'Netherlands', 'Germany', 'Belgium', 'India'),
+    (68, 6, 'Which player holds the record for the most goals scored in field hockey Olympic history?', 'Teun de Nooijer', 'Taeke Taekema', 'Jamie Dwyer', 'Jaap Stockmann', 'Taeke Taekema'),
+    (69, 6, 'What is the diameter of a standard field hockey ball?', '71 mm', '73 mm', '75 mm', '77 mm', '73 mm');
